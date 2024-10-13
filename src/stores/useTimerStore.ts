@@ -10,6 +10,7 @@ export const useTimerStore = defineStore('timer', () => {
   const isFinished = ref(false);
   let intervalId: number | null = null;
   const overTime = ref<number>(0)
+  const titulo = ref<string>('')
 
   // Función para iniciar el temporizador
   const startTimer = () => {
@@ -93,6 +94,7 @@ export const useTimerStore = defineStore('timer', () => {
   const formatTime = (value: number) => String(value).padStart(2, '0');
 
   return {
+    titulo,
     milisegundos,
     segundos,
     minutos,

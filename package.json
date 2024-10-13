@@ -1,8 +1,8 @@
 {
   "name": "cronometro-app",
   "version": "0.0.1",
-  "description": "proyecto cronometro",
-  "productName": "CronometroApp | pctester.cl",
+  "description": "proyecto temporizador",
+  "productName": "TimerApp",
   "author": "Leonardo Muñoz <leonardoeleazar.mv@gmail.com>",
   "private": true,
   "scripts": {
