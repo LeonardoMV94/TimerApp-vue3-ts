@@ -2,25 +2,32 @@
   "name": "cronometro-app",
   "version": "0.0.1",
   "description": "proyecto cronometro",
-  "productName": "CronometroApp",
+  "productName": "CronometroApp | pctester.cl",
   "author": "Leonardo Muñoz <leonardoeleazar.mv@gmail.com>",
   "private": true,
   "scripts": {
     "test": "echo \"No test specified\" && exit 0",
     "dev": "quasar dev",
-    "build": "quasar build"
+    "build": "quasar build",
+    "dev:win": "quasar dev -m electron",
+    "build:win": "quasar build -m electron"
   },
   "dependencies": {
-    "pinia": "^2.0.11",
+    "@electron/remote": "^2.1.2",
     "@quasar/extras": "^1.16.4",
+    "pinia": "^2.0.11",
     "quasar": "^2.16.0",
+    "stopwatch": "^0.2.0",
+    "ts-stopwatch": "^0.0.4",
     "vue": "^3.4.18",
     "vue-router": "^4.0.12"
   },
   "devDependencies": {
-    "@types/node": "^20.14.8",
+    "@electron/packager": "^18.3.2",
     "@quasar/app-vite": "^1.9.0",
+    "@types/node": "^20.14.8",
     "autoprefixer": "^10.4.2",
+    "electron": "^32.2.0",
     "typescript": "~5.5.4"
   },
   "engines": {
