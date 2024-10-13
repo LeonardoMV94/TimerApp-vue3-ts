@@ -1,6 +1,7 @@
-# CronometroApp (cronometro-app)
+# TimerApp (timer-app) | PCTester.cl
 
-proyecto cronometro
+proyecto temporizador
+Timer application project
 
 ## Install the dependencies
 ```bash
