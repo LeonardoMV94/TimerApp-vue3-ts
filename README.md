@@ -4,20 +4,18 @@ proyecto cronometro
 
 ## Install the dependencies
 ```bash
-yarn
-# or
-npm install
+pnpm install
 ```
 
 ### Start the app in development mode (hot-code reloading, error reporting, etc.)
 ```bash
-quasar dev
+pnpm dev:win
 ```
 
 
 ### Build the app for production
 ```bash
-quasar build
+pnpm build:win
 ```
 
 ### Customize the configuration
