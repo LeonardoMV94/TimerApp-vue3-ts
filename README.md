@@ -3,6 +3,12 @@
 proyecto temporizador
 Timer application project
 
+<img src="./image.png" width="30%"></img>
+<img src="./image2.png" width="30%"></img>
+<img src="./image3.png" width="30%"></img>
+<img src="./image4.png" width="30%"></img>
+<img src="./image5.png" width="30%"></img>
+
 ## Install the dependencies
 ```bash
 pnpm install
